@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:#FFFFFF; 
+    text-align: center;
+}
+
+body{
+    background-image:  url("../images/fondo_netflix_hd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor_gradiente{
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0.4) 40%,rgba(0,0,0,.20) 75%,rgba(0,0,0,.8) 100%);
+}
+
+
+.seccion_header {
+    display: flex; 
+    height: 100px;
+    min-height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.logo{
+    display:flex;
+    height: 15vh;
+    min-height: 60px;
+    position: absolute;
+    left: 10px;
+    margin: 10px;
+}
+
+.combo_idioma{    
+    display:flex;
+    height: 6vh;
+    width: 120px;
+    min-height: 25px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(0,0,0,.4);
+    background-image: url("../images/icono_planeta.png");
+    background-position:left center;
+    background-repeat: no-repeat;
+    border: 1px solid #aaa;
+}
+
+.boton_rojo{    
+    display:flex;
+    background-color: #E50914;
+    border-radius: 5px;
+    border: none;
+    height: 6vh;
+    min-height: 25px;
+    margin: 10px;
+    padding: 5px 16px;
+}
+
+.story_card_externo{
+    padding: 70px 45px;
+}
+
+.story_card{
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.titulo_principal{
+    font-size: 1.5rem;
+    margin:10px;
+}
+
+.titulo_secundario{
+    font-size: 1rem;
+}
+
+h3{
+    margin:1rem auto;
+}
+
+.subcontenedor_mail{
+    display: flex;
+    justify-content: center;
+}
+
+.input_mail{
+    text-align: left;
+    color: black;
+    width: 450px;
+    height: 60px;
+    margin: 10px 0px;
+    padding: 5px 16px;
+    font-size: 1rem;
+}
+
+.boton_mail{
+    width: 200px;
+    height: 60px;
+    background-color: #E50914;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+    padding: 5px 16px;
+    font-size: 26px;
+}
+
+@media (max-width:768px){
+
+    .titulo_principal{
+        font-size: 1rem;
+    }
+    
+    .titulo_secundario{
+        font-size: 0.8rem;
+    }
+
+    .story_card_externo{
+        padding: 10px 0px;
+    }
+    
+    .story_card{
+        position: relative;
+        width: 100%;
+        padding: 10px 0;
+        max-width: 950px;
+        margin: 0 auto;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .subcontenedor_mail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton_mail{
+        width: 122px;
+        height: 40px;
+        margin: 4px 0px;
+        padding: 0px 16px;
+        font-size: 15px;
+    }
+
+}
