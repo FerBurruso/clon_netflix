@@ -75,7 +75,7 @@ body{
 }
 
 .story_card_externo{
-    padding: 70px 45px;
+    padding: 30px 30px;
 }
 
 .story_card{
@@ -151,27 +151,76 @@ h3{
     font-size: 10 px;
 }
 
-@media (max-width:768px){
-
+@media (max-width:920px){
     
-    body{
-        background-image:  url("../images/fondo_netflix_medium.jpg");
+
+    .story_card{
+    /*    position: relative;*/
+        width: 100%;
+        padding: 10px 0;
+        max-width: 950px;
+        margin: 0 auto;
+        text-align: center;
+        z-index: 1;
     }
 
-    .titulo_principal{
+    .subcontenedor_mail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton_mail{
+        width: 122px;
+        height: 40px;
+        margin: 4px 0px;
+        padding: 0px 16px;
+        font-size: 15px;
+    }
+
+    .perfiles_ninos{
+        flex-direction: column-reverse;
+        padding: 10px;
+        
+    }
+
+    .imagen_ninos{
+        max-width: 75%;
+    }
+
+    .texto_ninos h2{
+        font-size: 1.5rem;
+        margin: 3px;
+    }
+
+
+    .texto_ninos{
         font-size: 1rem;
+        margin: 2px;    
+    }
+
+}
+
+
+
+@media (max-width:768px){
+
+    .titulo_principal{
+        font-size: 0.8rem;
     }
     
     .titulo_secundario{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
+
 
     .story_card_externo{
         padding: 10px 0px;
     }
+
     
     .story_card{
-        position: relative;
+    /*    position: relative;*/
         width: 100%;
         padding: 10px 0;
         max-width: 950px;
@@ -196,6 +245,7 @@ h3{
 
     .perfiles_ninos{
         flex-direction: column-reverse;
+        padding: 10px;
         
     }
 
@@ -205,12 +255,13 @@ h3{
 
     .texto_ninos h2{
         font-size: 1.5rem;
+        margin: 3px;
     }
 
 
     .texto_ninos{
         font-size: 1rem;
-    }
+        margin: 2px;    }
 
 }
 
@@ -240,6 +291,15 @@ h3{
         font-size: 10px;
     }
 
+    .titulo_principal{
+        font-size: 0.8rem;
+    }
+    
+    .titulo_secundario{
+        font-size: 0.6rem;
+    }
+
+
     .combo_idioma{    
         display:flex;
         height: 30px;
@@ -255,14 +315,6 @@ h3{
         font-size: 10px;
     }
     
-
-    .titulo_principal{
-        font-size: 0.6rem;
-    }
-    
-    .titulo_secundario{
-        font-size: 0.5rem;
-    }
 
     .story_card_externo{
         padding: 4px 0px;
