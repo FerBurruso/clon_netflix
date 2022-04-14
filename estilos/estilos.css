@@ -305,6 +305,10 @@ h3{
         align-items: center;
     }
 
+    .contenedor_mail{
+        font-size: 0.6rem;
+    }
+
     
     .input_mail{
         text-align: left;
