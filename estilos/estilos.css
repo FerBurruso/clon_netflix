@@ -129,7 +129,7 @@ h3{
 
 .perfiles_ninos{
     border-bottom: 8px solid #222;
-    background-color: red;
+    background-color: black;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -192,6 +192,24 @@ h3{
         margin: 4px 0px;
         padding: 0px 16px;
         font-size: 15px;
+    }
+
+    .perfiles_ninos{
+        flex-direction: column-reverse;
+        
+    }
+
+    .imagen_ninos{
+        max-width: 75%;
+    }
+
+    .texto_ninos h2{
+        font-size: 1.5rem;
+    }
+
+
+    .texto_ninos{
+        font-size: 1rem;
     }
 
 }
