@@ -187,6 +187,7 @@ h3{
         flex-direction: column-reverse;
         padding: 10px;
         text-align: center;
+        justify-content: flex-end;
     }
 
     .imagen_ninos{
