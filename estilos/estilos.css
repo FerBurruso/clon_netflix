@@ -341,13 +341,18 @@ h3{
         font-size: 0.7rem;
     }
 
+    .perfiles_ninos{
+        padding: 10px;
+
+    }
+
     .texto_ninos h2{
         font-size: 0.9rem;
     }
 
 
     .texto_ninos{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     
@@ -399,6 +404,12 @@ h3{
         height: 20px;
         font-size: 0.6rem;
     }
+
+    .perfiles_ninos{
+        padding: 10px;
+
+    }
+
 
 
   }
