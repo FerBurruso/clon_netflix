@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     color:#FFFFFF; 
-    text-align: center;
+
 }
 
 body{
@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+    text-align: center;
   
 }
 
@@ -38,6 +39,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
+    text-align: center;
 }
 
 .logo{
@@ -130,11 +132,13 @@ h3{
 .perfiles_ninos{
     border-bottom: 8px solid #222;
     background-color: black;
+    text-align: left;
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
+    padding-right: 100px;
 }
 
 .imagen_ninos{
@@ -181,7 +185,7 @@ h3{
     .perfiles_ninos{
         flex-direction: column-reverse;
         padding: 10px;
-        
+        text-align: center;
     }
 
     .imagen_ninos{
@@ -189,14 +193,12 @@ h3{
     }
 
     .texto_ninos h2{
-        font-size: 1.5rem;
-        margin: 3px;
+        text-align: center;
     }
 
 
     .texto_ninos{
-        font-size: 1rem;
-        margin: 2px;    
+        text-align: center;
     }
 
 }
