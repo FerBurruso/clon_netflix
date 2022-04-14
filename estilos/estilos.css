@@ -219,52 +219,7 @@ h3{
     .story_card_externo{
         padding: 10px 0px;
     }
-
     
-    .story_card{
-    /*    position: relative;*/
-        width: 100%;
-        padding: 10px 0;
-        max-width: 950px;
-        margin: 0 auto;
-        text-align: center;
-        z-index: 1;
-    }
-    
-    .subcontenedor_mail{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .boton_mail{
-        width: 122px;
-        height: 40px;
-        margin: 4px 0px;
-        padding: 0px 16px;
-        font-size: 15px;
-    }
-
-    .perfiles_ninos{
-        flex-direction: column-reverse;
-        padding: 10px;
-        
-    }
-
-    .imagen_ninos{
-        max-width: 75%;
-    }
-
-    .texto_ninos h2{
-        font-size: 1.5rem;
-        margin: 3px;
-    }
-
-
-    .texto_ninos{
-        font-size: 1rem;
-        margin: 2px;    }
-
 }
 
 @media (max-device-width : 480px) {
@@ -346,8 +301,8 @@ h3{
     .input_mail{
         text-align: left;
         color: black;
-        width: 300px;
-        height: 30px;
+        width: 240px;
+        height: 25px;
         margin: 5px 0px;
         padding: 2px 8px;
         font-size: 0.7rem;
@@ -355,8 +310,8 @@ h3{
 
 
     .boton_mail{
-        width: 122px;
-        height: 40px;
+        width: 120px;
+        height: 25px;
         margin: 4px 0px;
         padding: 0px 16px;
         font-size: 0.7rem;
