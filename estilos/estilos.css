@@ -267,18 +267,16 @@ h3{
 
 }
 
-@media (max-device-width : 481px) {
+@media (max-device-width : 480px) {
 
     body{
         background-image:  url("../images/fondo_netflix_chica.jpg");
         background-repeat: no-repeat;
-        height: 50vh;
         width: 100%;
       
     }    
     
     .contenedor_gradiente{
-        /*    position: absolute;*/
             height: 50vh;
         }
         
