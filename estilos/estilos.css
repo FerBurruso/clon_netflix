@@ -261,7 +261,7 @@ h3{
     }
 
     .titulo_principal{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     
     .titulo_secundario{
@@ -327,6 +327,61 @@ h3{
         margin: 4px 0px;
         padding: 0px 16px;
         font-size: 0.7rem;
+    }
+
+    .texto_ninos h2{
+        font-size: 0.9rem;
+    }
+
+
+    .texto_ninos{
+        font-size: 0.7rem;
+    }
+
+
+
+  }
+  
+  
+@media (max-device-width : 360px) {
+
+    
+    .contenedor_gradiente{
+            height: 50vh;
+        }
+        
+
+    .logo{
+        max-height: 10px;
+    }
+
+    .boton_rojo{
+        width: 70px;
+        height: 20px;
+        font-size: 8px;
+    }
+
+    .combo_idioma{    
+        height: 20px;
+        font-size: 8px;
+    }
+        
+    .contenedor_mail{
+        font-size: 0.4rem;
+    }
+
+    
+    .input_mail{
+        width: 200px;
+        height: 20px;
+        font-size: 0.5rem;
+    }
+
+
+    .boton_mail{
+        width: 110px;
+        height: 20px;
+        font-size: 0.6rem;
     }
 
 
