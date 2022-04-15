@@ -3,18 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    color:#FFFFFF; 
-
 }
 
 body{
+    color:#FFFFFF;       
+    background-color: black;
+}
+
+.contenedor_principal{
     background-image:  url("../images/fondo_netflix_hd.jpg");
     background-size: cover;
     background-repeat: no-repeat;
    /* height: 100vh;*/
     width: 100%;
     text-align: center;
-  
+    color:#FFFFFF;       
 }
 
 .contenedor_gradiente{
@@ -40,6 +43,7 @@ body{
     justify-content: flex-end;
     padding-right: 10px;
     text-align: center;
+
 }
 
 .logo{
@@ -63,6 +67,8 @@ body{
     background-position:left center;
     background-repeat: no-repeat;
     border: 1px solid #aaa;
+    color:#FFFFFF;   
+
 }
 
 .boton_rojo{    
@@ -74,6 +80,8 @@ body{
     min-height: 30px;
     margin: 10px;
     padding: 5px 16px;
+    color:#FFFFFF;   
+
 }
 
 .story_card_externo{
@@ -127,11 +135,11 @@ h3{
     margin: 10px 0px;
     padding: 5px 16px;
     font-size: 1rem;
+    color:#FFFFFF;   
 }
 
 .perfiles_ninos{
     border-bottom: 8px solid #222;
-    background-color: black;
     text-align: left;
     display: flex;
     flex-direction: row;
@@ -153,6 +161,12 @@ h3{
 /*titulo grande*/
 .texto_ninos h2{
     font-size: 2rem;
+}
+
+footer{
+    font-size: 1rem;
+    color: #757575;
+    margin: 113px;
 }
 
 @media (max-width:920px){
@@ -209,6 +223,10 @@ h3{
 
 @media (max-width:768px){
 
+    .contenedor_principal{
+        background-image:  url("../images/fondo_netflix_medium.jpg");
+    }
+
     .titulo_principal{
         font-size: 0.8rem;
     }
@@ -245,7 +263,7 @@ h3{
 
 @media (max-device-width : 480px) {
 
-    body{
+    .contenedor_principal{
         background-image:  url("../images/fondo_netflix_chica.jpg");
         background-repeat: no-repeat;
         width: 100%;
@@ -410,8 +428,6 @@ h3{
         padding: 10px;
 
     }
-
-
 
   }
   
