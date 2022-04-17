@@ -166,11 +166,43 @@ h3{
 footer{
     font-size: 1rem;
     color: #757575;
-    margin: 113px;
+    margin-left: 113px;
+    margin-top: 70px;
+}
+
+.footer_top{
+  display: grid;
+  justify-content: left;
+  justify-items:left;
+  grid-template-columns: 4fr;
+  grid-template-rows: 30px;
+}
+
+.footer_columnas{
+    display: grid;
+    justify-content: space-around;
+    justify-items:left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+
+.footer_columnas a{
+    font-size: 0.8rem;
+    color:#757575;
+}
+
+.footer_link{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    text-decoration:none;
+}
+
+
+a:hover{
+    text-decoration: underline;
 }
 
 @media (max-width:920px){
-    
 
     .story_card{
     /*    position: relative;*/
@@ -217,6 +249,11 @@ footer{
         text-align: center;
     }
 
+    
+    footer{
+        margin-left: 80px;
+    }
+
 }
 
 
@@ -257,11 +294,21 @@ footer{
         height: 40px;
     }
 
+    .footer_top{
+        grid-template-columns: 3fr;
+      }
+      
+      .footer_columnas{
+          grid-template-columns: 1fr 1fr 1fr;
+      }
 
+    footer{
+        margin-left: 50px;
+    }
     
 }
 
-@media (max-device-width : 480px) {
+@media (max-device-width : 500px) {
 
     .contenedor_principal{
         background-image:  url("../images/fondo_netflix_chica.jpg");
@@ -379,6 +426,13 @@ footer{
         height: 50vh;
     }
     
+    .footer_top{
+        grid-template-columns: 2fr;
+      }
+      
+      .footer_columnas{
+          grid-template-columns: 1fr 1fr;
+      }
 
   }
   
